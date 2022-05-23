@@ -15,7 +15,7 @@ import {
 import { Ionicons } from '@expo/vector-icons';
 
 const bck = {
-  uri: 'https://i.pinimg.com/originals/1b/03/20/1b0320003444f2cf9519a72793f42860.jpg',
+  uri: 'https://i.pinimg.c/originals/1b/03/20/1b0320003444f2cf9519a72793f42860.jpg',
 };
 const image = {
   uri: 'https://www.nj.com/resizer/zovGSasCaR41h_yUGYHXbVTQW2A=/1280x0/smart/cloudfront-us-east-1.images.arcpublishing.com/advancelocal/SJGKVE5UNVESVCW7BBOHKQCZVE.jpg',
@@ -26,7 +26,7 @@ const CustomDrawer = (props) => {
     <View style={{ flex: 1 }}>
       <DrawerContentScrollView
         {...props}
-        contentContainerStyle={{ backgroundColor: 'purple' }}>
+        contentContainerStyle={{ backgroundColor: '#914' }}>
         <ImageBackground source={bck} style={{ padding: 20 }}>
           <Image
             source={image}
